@@ -6,6 +6,7 @@ module.exports = {
       "Orders",
       [
         {
+          inventoryId: 1,
           email: "email1@internet.com",
           orderPlaced: "January 09, 2020",
           status: "shipped",
@@ -13,6 +14,7 @@ module.exports = {
           updatedAt: new Date().toDateString()
         },
         {
+          inventoryId: 2,
           email: "email2@internet.com",
           orderPlaced: "January 10, 2020",
           status: "preparing to ship",

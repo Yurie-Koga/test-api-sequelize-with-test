@@ -6,24 +6,24 @@ module.exports = {
       "Inventories",
       [
         {
-          name: "Weed 1",
-          description: "This is weed 1",
+          name: "Item 1",
+          description: "This is item 1",
           price: 11.99,
           quantity: 10,
           createdAt: new Date().toDateString(),
           updatedAt: new Date().toDateString()
         },
         {
-          name: "Weed 2",
-          description: "This is weed 2",
+          name: "Item 2",
+          description: "This is item 2",
           price: 3.0,
           quantity: 5,
           createdAt: new Date().toDateString(),
           updatedAt: new Date().toDateString()
         },
         {
-          name: "Weed 3",
-          description: "This is weed 3",
+          name: "Item 3",
+          description: "This is item 3",
           price: 6.5,
           quantity: 0,
           createdAt: new Date().toDateString(),
