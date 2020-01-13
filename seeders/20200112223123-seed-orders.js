@@ -7,6 +7,7 @@ module.exports = {
       [
         {
           inventoryId: 1,
+          quantity: 5,
           email: "email1@internet.com",
           orderPlaced: "January 09, 2020",
           status: "shipped",
@@ -15,6 +16,7 @@ module.exports = {
         },
         {
           inventoryId: 2,
+          quantity: 1,
           email: "email2@internet.com",
           orderPlaced: "January 10, 2020",
           status: "preparing to ship",

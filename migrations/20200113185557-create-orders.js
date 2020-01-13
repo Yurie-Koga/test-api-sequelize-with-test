@@ -11,6 +11,9 @@ module.exports = {
       inventoryId: {
         type: Sequelize.INTEGER
       },
+      quantity: {
+        type: Sequelize.INTEGER
+      },
       email: {
         type: Sequelize.STRING
       },

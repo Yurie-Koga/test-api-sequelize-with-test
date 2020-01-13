@@ -48,8 +48,8 @@ router.put("/:id", function(req, res, next) {
   const id = parseInt(req.params.id);
   const { name, description, price, quantity } = req.body;
   // return: updated record's object
-  return db.Inventories.findOne({ where: { id: id } }).then(inventory => {
-    return inventory
+  return db.Inventories.findOne({ where: { id: id } }).then(inventories => {
+    return inventories
       .update({ name, description, price, quantity })
       .then(inventories => res.send(inventories))
       .catch(err => {
@@ -83,8 +83,8 @@ router.put("/:id", function(req, res, next) {
 // Delete inventory item
 router.delete("/:id", function(req, res, next) {
   const id = parseInt(req.params.id);
-  return db.Inventories.findOne({ where: { id: id } }).then(inventory => {
-    return inventory
+  return db.Inventories.findOne({ where: { id: id } }).then(inventories => {
+    return inventories
       .destroy({ force: true })
       .then(() => res.send({ id }))
       .catch(err => {

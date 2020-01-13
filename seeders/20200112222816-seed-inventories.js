@@ -28,6 +28,14 @@ module.exports = {
           quantity: 0,
           createdAt: new Date().toDateString(),
           updatedAt: new Date().toDateString()
+        },
+        {
+          name: "Item 4",
+          description: "This is item 3",
+          price: 6.5,
+          quantity: 10,
+          createdAt: new Date().toDateString(),
+          updatedAt: new Date().toDateString()
         }
       ],
       {}
