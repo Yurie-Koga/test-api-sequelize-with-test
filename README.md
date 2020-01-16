@@ -1,4 +1,4 @@
-# test-api-sequelize
+# test-api-sequelize-with-test
 
 npm install
 
